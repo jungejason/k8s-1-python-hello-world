@@ -4,6 +4,7 @@ metadata:
   labels:
     app: webapp
   name: webapp
+  namespace: prod-python-helloworld
 spec:
   type: LoadBalancer
   ports:
